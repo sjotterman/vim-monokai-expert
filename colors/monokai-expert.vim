@@ -23,6 +23,7 @@ hi GitSignsDelete ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#99252
 hi DiagnosticSignHint ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#999999 guisp=NONE gui=NONE
 hi DiagnosticSignError ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=red guisp=NONE gui=NONE
 hi DiagnosticSignWarn ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=orange guisp=NONE gui=NONE
+hi DiagnosticSignInfo ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#78dce8 guisp=NONE gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#403e41 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
@@ -32,7 +33,7 @@ hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#696769 guibg=#696769 gui=NO
 hi MatchParen ctermfg=204 ctermbg=NONE cterm=underline guifg=#ff6188 guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#fcfcfa guibg=#696769 gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#fcfcfa guibg=#696769 gui=NONE
-hi Pmenu ctermfg=150 ctermbg=NONE cterm=NONE guifg=#a9dc76 guibg=NONE gui=NONE
+hi Pmenu ctermfg=231 ctermbg=236 cterm=NONE guifg=#fcfcfa guibg=#2d2a2e gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#403e41 gui=NONE
 hi IncSearch ctermfg=236 ctermbg=221 cterm=NONE guifg=#2d2a2e guibg=#ffd866 gui=NONE
 hi Search ctermfg=236 ctermbg=221 cterm=underline guifg=#2d2a2e guibg=#ffd866 gui=underline
