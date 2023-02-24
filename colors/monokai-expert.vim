@@ -1,6 +1,7 @@
 " Vim color file
-" Author: Viet Phan
-" Colorscheme Name: monokai pro
+" Author: Samuel J Otterman
+" Colorscheme Name: monokai expert
+" forked from https://github.com/phanviet/vim-monokai-pro
 " Inspired by https://www.monokai.pro/
 
 set background=dark
