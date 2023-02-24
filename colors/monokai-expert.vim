@@ -1,7 +1,6 @@
 " Vim color file
-" Author: Samuel J Otterman
-" Colorscheme Name: monokai expert
-" forked from https://github.com/phanviet/vim-monokai-pro
+" Author: Viet Phan
+" Colorscheme Name: monokai pro
 " Inspired by https://www.monokai.pro/
 
 set background=dark
@@ -11,11 +10,19 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "monokai_pro"
+let g:colors_name = "monokai-expert"
 
 " Default group
 hi Cursor ctermfg=236 ctermbg=231 cterm=NONE guifg=#2d2a2e guibg=#fcfcfa gui=NONE
-hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guibg=#3a3a3a guifg=NONE guisp=NONE gui=NONE
+hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=NONE guisp=NONE gui=NONE
+
+hi GitSignsChange ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#78dce8 guisp=NONE gui=NONE
+hi GitSignsAdd ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#229944 guisp=NONE gui=NONE
+hi GitSignsDelete ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#992525 guisp=NONE gui=NONE
+
+hi DiagnosticSignHint ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#999999 guisp=NONE gui=NONE
+hi DiagnosticSignError ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=red guisp=NONE gui=NONE
+hi DiagnosticSignWarn ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=orange guisp=NONE gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#403e41 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
@@ -28,7 +35,7 @@ hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#fcfcfa guibg=#696769 gu
 hi Pmenu ctermfg=150 ctermbg=NONE cterm=NONE guifg=#a9dc76 guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#403e41 gui=NONE
 hi IncSearch ctermfg=236 ctermbg=221 cterm=NONE guifg=#2d2a2e guibg=#ffd866 gui=NONE
-hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi Search ctermfg=236 ctermbg=221 cterm=underline guifg=#2d2a2e guibg=#ffd866 gui=underline
 hi Directory ctermfg=209 ctermbg=NONE cterm=NONE guifg=#fc9867 guibg=NONE gui=NONE
 hi Folded ctermfg=189 ctermbg=60 cterm=NONE guifg=#d7d7ff guibg=#5f5f87 gui=NONE
 hi Normal ctermfg=231 ctermbg=236 cterm=NONE guifg=#fcfcfa guibg=#2d2a2e gui=NONE
@@ -63,6 +70,9 @@ hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#fcfcfa guibg=NONE gui=bold
 hi Todo ctermfg=231 ctermbg=NONE cterm=inverse,bold guifg=#fcfcfa guibg=NONE gui=inverse,bold,italic
 hi Type ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78dce8 guibg=NONE gui=italic
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi TablineFill ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=NONE
+hi TabLine ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=NONE
+hi TabLineSel ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423f42 guifg=#78dce8 guisp=NONE gui=NONE
 
 " Color for custom group
 " hi EndColons ctermfg=246 ctermbg=NONE cterm=NONE guifg=#939293 guibg=NONE gui=NONE
